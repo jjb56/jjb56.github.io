@@ -189,12 +189,12 @@ side_and_top_nav_buttons:
     icon: "fa fa-home"
   - about:
     icon: "fa fa-user-o"
-  - post-list:
-    icon: "fa fa-pencil-square-o"
+ # - post-list:
+ #   icon: "fa fa-pencil-square-o"
   - projects:
-    icon: "fa fa-gamepad"
-  - links:
-    icon: "fa fa-link"
+    icon: "fa fa-code"
+ # - links:
+ #   icon: "fa fa-link"
   - archives:
     icon: "fa fa-archive"
 
