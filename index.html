@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeremy Barnes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button class="menu-btn" id="menuBtn">☰</button>
+
+  <div class="sidebar" id="sidebar">
+    <div class="profile-pic">
+      <img src="images/profile_pic.jpg" alt="Profile Picture" />
+    </div>
+    <h2>Jeremy Barnes</h2>
+    <nav class="nav-links">
+      <a href="#about" onclick="closeMenu()">About</a>
+      <a href="#projects" onclick="closeMenu()">Projects</a>
+    </nav>
+    <button class="toggle-btn" id="modeToggle">Dark Mode</button>
+  </div>
+
+  <div class="content">
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm a software developer and IT enthusiast passionate about improving computer experiences and solving challenging problems.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <div class="project-header">
+          <h3>Starfighter Hero (Video Game)</h3>
+          <span>+</span>
+        </div>
+        <div class="project-content">
+          <img class="project-image" src="images/starfighter_hero.jpg" alt="Oxygen Farm">
+          <p><b>Link: </b><a href="https://store.steampowered.com/app/4058700/Starfighter_Hero/" target="_blank">Steam Store</a></p>
+          <p>A description of your first project. Explain what technologies were used, what problem it solved, and what you learned.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <h3>Oxygen Farm (Video Game)</h3>
+          <span>+</span>
+        </div>
+        <div class="project-content">
+          <img class="project-image" src="images/oxygen_farm.jpg" alt="Oxygen Farm">
+          <p><b>Link: </b><a href="https://debreut.itch.io/oxygen-farm" target="_blank">debreut.itch.io</a></p>
+          <p>A description of your first project. Explain what technologies were used, what problem it solved, and what you learned.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <h3>Interactive Character Sheet</h3>
+          <span>+</span>
+        </div>
+        <div class="project-content">
+          <img class="project-image" src="images/char_sheet.jpg" alt="Interactive Character Sheet">
+          <p><b>Link: </b><a href="https://jjb56.github.io/AoM-Character-Sheet/" target="_blank">jjb56.github.io</a></p>
+          <p>Details about another project you've worked on. Highlight features, stack, and results.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <h3>Dungeon Generator</h3>
+          <span>+</span>
+        </div>
+        <div class="project-content">
+          <img class="project-image" src="images/dungeon_gen.jpg" alt="Dungeon Generator">
+          <p><b>Link: </b><a href="https://jjb56.github.io/Dungeon-Generator/" target="_blank">jjb56.github.io</a></p>
+          <p>Information about this project — what makes it unique and what you contributed.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
